@@ -2,7 +2,7 @@
     <div :class="wrapClasses"><slot></slot></div>
 </template>
 <script>
-    const prefixCls = 'ivu-layout';
+    const prefixCls = 'ivu-components';
     export default {
         name: 'Footer',
         computed: {

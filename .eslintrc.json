@@ -16,9 +16,11 @@
     "plugins": ["vue"],
     "rules": {
         "indent": ["error", 4, { "SwitchCase": 1 }],
-        "quotes": ["error", "single"],
-        "semi": ["error", "always"],
+        "quotes": "off",
+        "semi": "off",
         "vue/jsx-uses-vars": 2,
-        "no-console": ["error"]
+        "no-unused-vars": "off", // 不能有声明后未被使用的变量或参数，用于js
+        "vue/no-unused-vars": "off", // 不能有声明后未被使用的变量或参数，用于vue模版
+        "no-console": 0
     }
 }
